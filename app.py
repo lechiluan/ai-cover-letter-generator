@@ -24,6 +24,7 @@ def generate_cover_letter(api_key, cv_text, job_description):
             "role": "user",
             "content": f"""
             Based on the following CV and job description, please generate a professional cover letter.
+            Maximum about 500 character and write about my experience match with job description.
 
             **CV:**
             {cv_text}
